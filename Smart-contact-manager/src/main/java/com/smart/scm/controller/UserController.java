@@ -30,7 +30,7 @@ public class UserController {
 		m.addAttribute("user",user);
 	}
 	
-	
+	//test
 	// home Dashboard
 	@RequestMapping("/index")
 	public String dashboard(Model model,Principal principal) {
